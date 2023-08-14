@@ -54,6 +54,7 @@ const Header = () => {
             <BsLightbulb size={25} className="cursor-pointer" />
           )}
         </div>
+        <NavMobile />
       </div>
     </header>
   );
