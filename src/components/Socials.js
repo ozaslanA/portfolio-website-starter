@@ -11,7 +11,7 @@ const Socials = () => {
         items-center text-white"
             key={index}
           >
-            <a className="text-base" hred={item.href}>
+            <a className="text-base" href={item.href}>
               {item.icon}
             </a>
           </li>
