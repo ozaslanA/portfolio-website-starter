@@ -15,7 +15,6 @@ import {
 // companies icons
 import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
 import UpworkBrandIcon from "./assets/img/brands/upwork.png";
-import FiverBrandIcon from "./assets/img/brands/fiverr.png";
 import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
@@ -86,30 +85,6 @@ export const social = [
   },
   {
     icon: <FiDribbble />,
-    href: "",
-  },
-];
-
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: "",
-  },
-  {
-    img: UpworkBrandIcon,
-    href: "",
-  },
-  {
-    img: FiverBrandIcon,
-    href: "",
-  },
-  {
-    img: BehanceBrandIcon,
-    href: "",
-  },
-  {
-    img: DribbbleBrandIcon,
     href: "",
   },
 ];
@@ -185,16 +160,7 @@ export const skills = [
     image: SkillImg4,
   },
   {
-    image: SkillImg5,
-  },
-  {
-    image: SkillImg6,
-  },
-  {
-    image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
+    image: SkillImg4,
   },
 ];
 

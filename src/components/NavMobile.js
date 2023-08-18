@@ -73,7 +73,6 @@ const NavMobile = () => {
                   offset={-70}
                   className="text-xl cursor-pointer capitalize"
                 >
-                  {" "}
                   {item.name}
                 </Link>
               </li>

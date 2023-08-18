@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 import Socials from "../components/Socials";
-import { BsLightbulb, BsMoonFill } from "react-icons/bs";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -12,7 +11,7 @@ const Header = () => {
     const root = document.getElementById("root");
     if (color) {
       root.style.backgroundColor = "black";
-      root.style.color = "gray";
+      root.style.color = "white";
     } else {
       root.style.backgroundColor = "white";
       root.style.color = "black";
@@ -47,13 +46,7 @@ const Header = () => {
         <div className="hidden lg:hidden">
           <NavMobile />
         </div>
-        <div onClick={() => setColor(!color)}>
-          {color ? (
-            <BsMoonFill size={25} className="cursor-pointer" />
-          ) : (
-            <BsLightbulb size={25} className="cursor-pointer" />
-          )}
-        </div>
+        <div></div>
         <NavMobile />
       </div>
     </header>
